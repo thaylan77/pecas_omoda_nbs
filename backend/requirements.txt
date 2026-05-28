@@ -1,0 +1,6 @@
+fastapi
+uvicorn
+oracledb
+pandas
+openpyxl
+python-multipart

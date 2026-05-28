@@ -4,6 +4,11 @@ import pandas as pd
 import io
 import os
 import logging
+from dotenv import load_dotenv
+
+# Carregar variáveis de ambiente do arquivo .env (se existir)
+load_dotenv()
+
 from database_helper import testar_conexao, importar_pecas_lote, importar_servicos_lote
 
 # Configuração de logging

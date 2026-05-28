@@ -4,3 +4,4 @@ oracledb
 pandas
 openpyxl
 python-multipart
+python-dotenv
